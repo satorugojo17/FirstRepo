@@ -223,5 +223,12 @@ public class CompanyScheme {
 	public int numberOfNetworks(){
 		return companies.size();
 	}	
-
+	public boolean overMaximum(int n) {
+		if(companies.size() > 5) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
 }
